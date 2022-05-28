@@ -1,0 +1,50 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+background-color: gainsboro;
+}
+header{
+background-color: white;
+text-align: center;
+font-weight: bolder;
+}
+header h1{
+width: 600px;
+margin: 0px;
+margin: auto;
+}
+article{
+background-color: white;
+width: 600px;
+margin: auto;
+margin-top: 50px;
+}
+
+.article-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 15px;
+}
+.article-header .title1{
+font-size: 1.2rem;
+font-weight: bold;
+margin: 0;
+}
+.article-header .date1{
+font-size: 0.7rem;
+color: darkgrey;
+margin: 0;
+}
+.article-footer{
+padding: 8px 15px;
+margin: 0;
+}
+
+.article-footer .p{
+padding: 0;
+margin: 0;
+color: black;
+    }
